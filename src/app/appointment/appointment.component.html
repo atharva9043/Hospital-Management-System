@@ -1,0 +1,24 @@
+ <table class="table table-striped" >
+    
+    <thead>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Symptoms</th>
+            <th>Number</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr *ngFor="let appointment of appointments">
+            <td>{{appointment.id}}</td>
+            <td>{{appointment.name}}</td>
+            <td>{{appointment.age}}</td>
+            <td>{{appointment.symptoms}}</td>
+            <td>{{appointment.number}}</td>
+           
+        </tr>
+    </tbody>
+</table>
